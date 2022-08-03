@@ -23,7 +23,7 @@ while getopts ":h:t:s:" option; do
          exit;;
       t) # Transform
          b0_trans=$OPTARG;;
-      q) #FS recon all subject ID
+      s) #FS recon all subject ID
          ID=$OPTARG;;
      \?) # Invalid option
          echo "Error: Invalid option"
